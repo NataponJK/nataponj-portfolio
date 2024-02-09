@@ -19,7 +19,7 @@ const Work = () => {
           </p>
           <p className="my-5">
             i joined generation thailand junior software developer bootscamp. they taught me about role of junior
-            software developer, software development, management cycle and basic stuff.
+            software developer, software development life cycle and professionalism.
           </p>
           <ul className="list-disc px-6 my-5">
             <li>learned HTML, CSS, JavaSctipt, ReactJS, NodeJS,
