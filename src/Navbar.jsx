@@ -46,9 +46,25 @@ const Navbar = () => {
       </div>
       {open && (
         <div className="animate-fade animate-ease-out fixed top-0 left-0 w-full h-dvh z-10">
-          <div className="flex justify-end mx-3 mt-3 mb-2">
+          <div className="flex justify-around mx-3 mt-3 mb-2">
+            <div className="w-[30px] h-[30px]"></div>
+            <div>
+              <a href="https://drive.google.com/file/d/1eiewyEHoE8YRtQPLjhLssC6b0pEOAFpH/view?usp=sharing">
+                <img
+                  className="w-[30px] h-[30px]"
+                  src="download.png"
+                  title="Download"
+                />
+              </a>
+            </div>
             <button onClick={() => setOpen(false)} className="px-6">
-              <img src="close.png" alt="close" />
+              <img
+                className="w-[30px] h-[30px]"
+                src="close.png"
+                alt="close"
+                title="Close"
+              />
+              <div></div>
             </button>
           </div>
           <div className="w-full h-full item-center overflow-scroll">
