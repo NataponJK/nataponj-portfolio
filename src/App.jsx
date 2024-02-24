@@ -3,7 +3,7 @@ import Layout from "./Layout";
 const App = () => {
   return (
     <Layout>
-      <section className="flex flex-col font-light text-neutral-600">
+      <section className="flex flex-col font-light text-neutral-600 w-full">
         <h1 className="flex text-2xl font-medium my-6 text-neutral-700">
           hi, I'm james!
           <p className="text-2xl animate-wiggle-more animate-infinite">👋</p>
@@ -29,7 +29,7 @@ const App = () => {
           </p>
           <hr className="border-[#D3D3D3] my-6" />
           <h2 className="text-2xl font-medium mb-1 text-neutral-700">skill</h2>
-          <div className="flex gap-3 justify-between my-6">
+          <div className="flex gap-3 justify-between my-6 flex-wrap">
             <img src="html.png" title="HTML" />
             <img src="css.png" title="CSS" />
             <img src="javascript.png" title="JavaScript" />
